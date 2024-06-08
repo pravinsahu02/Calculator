@@ -1,0 +1,36 @@
+.container{
+    background:rgb(0, 0, 0); position:absolute; top:0px; right:0px; bottom:0px; left:0px;
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color: white;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(254, 232, 232, 0.692) 0px 10px 20px, rgba(210, 207, 207, 0.403) 0px 6px 6px;
+}
+.inp{
+    width: 492px;
+    height: 60px;
+}
+.buttoncomp{
+    display: flex;
+}
+.btn{
+    width: 100%;
+    height: 83px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    box-shadow: rgba(250, 200, 200, 0.19) 0px 10px 20px, rgba(226, 142, 142, 0.23) 0px 6px 6px;
+}
