@@ -1,0 +1,345 @@
+.mainleft{
+    background-color: #000000;
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    height: 11rem;
+    width: 22.5rem;
+    background-color: #303030;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    opacity: 0.5px;
+}
+.logo{
+    width: 150px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+   
+}
+.logoimg{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    padding-left: none;
+    opacity: 0.7;
+}
+i{
+    padding-right: 25px;
+}
+li:hover{
+    opacity: 1;
+}
+.library{
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    width: 22.5rem;
+    background-color: #303030;
+    position: relative;
+   border-radius: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    opacity: 0.5px;
+    border-bottom: 10px;
+}
+.lib_top{
+    height: 4rem;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lib_top img{
+    height: 1.35rem;
+    width: 1.35rem;
+    padding-left: 25px;
+    padding-top: 18px;
+    opacity: 0.5;
+}
+.lib_top a{
+    padding-left: 20px;
+    padding-top: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.lib_top i{
+    padding-left: 160px;
+    padding-top: 33px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.lib_top a:hover{
+    opacity: 1;
+}
+.lib_top i:hover{
+    opacity: 1;
+}
+.lib_top img:hover{
+    opacity: 1;
+}
+.playlist{
+    background-color: #303030;
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    overflow: auto;
+    scrollbar-width: none; 
+    margin-bottom: 10px;
+}
+.play_song{
+    background-color: #454343;
+    height: 9rem;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.play_song button{
+    border-radius: 100px;
+    background-color: white;
+    height: 2.2rem;
+    width: 8rem;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+}
+.playone{
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.playtwo{
+    color: white;
+    opacity: 0.8;
+    padding-left: 20px;
+}
+.play_pod{
+    height: 9rem;
+    width: 352px;
+    background-color: aqua;
+    display: inline-block;
+    
+}
+.btn_play{
+    margin-left: 10px;
+}
+.btn_play:hover{
+    width: 131px;
+    height: 37px;
+}
+.lib_bottom{
+    background-color: #303030;
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.7rem;
+}
+.lib_bottom p{
+   word-spacing: 10px; 
+   margin-right: 2.3rem;
+   margin-top: 1.5rem;
+   color: inherit;
+   display: inline block;
+}
+.mainbody{
+    width: 69.6rem;
+    height: 39.6rem;
+    background-color: #303030;
+    margin-top: 0.6rem;
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.welcome{
+    width: 69.6rem;
+    height: 20rem;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(120, 209, 242),rgb(153, 220, 237),rgb(148, 186, 198),rgb(77, 86, 91));  
+
+}
+
+.welcome_nav{
+    width: 69.6rem;
+    height: 4rem;
+    opacity: 1;
+}
+.backward_icon{
+    border-radius: 50%;
+    background-color: #414444;
+    width: 35px;
+    height: 35px;
+    margin-left: 23px;
+}
+.backward_icon img{
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.welcome_nav_two{
+    padding-top: 13px;
+    display: flex;
+    opacity: 0.8;
+   
+}
+.forward_icon{
+    border-radius: 50%;
+    background-color: #414444;
+    width: 35px;
+    height: 35px;
+   margin-left: 15px;
+}
+.forward_icon img{
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.welcome_nav_two a{
+    margin-left: 48rem;
+    margin-top: 4px;
+    font-family: 'Noto Sans', sans-serif;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.welcome_nav_two a:hover{
+    opacity: 1;
+}
+.Login{
+    border-radius: 30px;
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.Login:hover{
+    border: solid;
+    font-weight: 700;
+    width: 6.5rem;
+    height: 2.1rem;
+}
+.homepage{
+    width: 69.6rem;
+    height: 14.2rem;
+}
+.home_img img{
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.home_txt{
+    width: 40rem;
+    height: 9rem;
+    margin-top: 5.5rem;
+    margin-left: 17rem;
+}
+.home_txt h1{
+    font-size: 6rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cards_contain{
+    width: 69.6rem;
+    height: 20rem;
+    display: inline-block;
+}
+.container_title{
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff;
+    padding-left: 30px;
+}
+.cards{
+   border-radius: 10px;
+   width: 100%;
+    height: 260px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff;
+    padding-left: 30px;
+    display: flex;
+  }
+
+.card{
+    width: 159px;
+    height: 250px;
+    background-color: #383939;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.card_img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.card p{
+    padding-left: 11px;
+}
+.title{
+    font-weight: 400;
+}
+.info{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.card:hover{
+    width: 164px;
+    height: 265px;
+    background-color: #545858;
+    border-radius: 11px;
+}
+.footer{
+    width: 69.6rem;
+    height: 15rem;
+    background-color: #b80b0b;
+    margin-top: 0.6rem;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.7rem;
+}
+
+.foot_bottom p{
+   word-spacing: 10px; 
+   margin-right: 2.3rem;
+   margin-top: 1.5rem;
+   color: inherit;
+   display: inline block;
+}
+.madeby{
+    width: 69.6rem;
+    height: 7rem;
+}
